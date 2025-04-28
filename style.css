@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+.error {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('https://i.postimg.cc/GtJD49LW/gifs.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', serif;
+}
+    .error p { position: absolute; top: 3rem; font-size: 7rem; color: #00000063; }
+    .error h2 { position: absolute; bottom: 8rem; font-size: 34px; }
+    .error h5 { position: absolute; bottom: 6rem; color: #9C9C9C; }
+   
+
+@media (max-width: 400px) {
+    .frem { background-size: contain; }
+    .frem h2 { font-size: 20px; }
+}
